@@ -5,3 +5,12 @@ function saturdayFun(sleep="roller-skate") {
  function mondayWork(work="go to the office") {
   `This Monday, I will ${work} .`
 };
+
+function wrapAdjective(arr="*") {
+
+    function innerfn(play="special") {
+    return "You are ${play}"
+  }return (wrapAdjective(arr)(${play}))
+}
+ 
+ 
