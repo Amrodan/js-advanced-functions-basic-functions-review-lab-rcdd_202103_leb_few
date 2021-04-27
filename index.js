@@ -9,8 +9,8 @@ function saturdayFun(sleep="roller-skate") {
 function wrapAdjective(arr="*") {
 
     function innerfn(play="special") {
-    return "You are ${play}"
-  }return (wrapAdjective(arr)(${play}))
+    return "You are ${arr}${play}${arr}"
+  } 
 }
 
  
