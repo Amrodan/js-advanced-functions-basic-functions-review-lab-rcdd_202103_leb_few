@@ -12,5 +12,5 @@ function wrapAdjective(arr="*") {
     return "You are ${play}"
   }return (wrapAdjective(arr)(${play}))
 }
- 
+
  
